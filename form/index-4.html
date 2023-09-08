@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        body {
+            
+            background:aliceblue;
+            font-family: 'Lato', sans-serif;
+            
+        }
+       
+        h1 {
+            text-align: center;
+            font-size: 4em;
+            font-weight: 500;
+            color: blue;
+            border: 2px solid white;
+        }
+        label {
+            display: block;
+            margin-bottom: 20px;
+            color: purple;
+            border: 2px solid white;
+            font-size: 1.5em;
+        }
+        input {
+            font-size: 1em;
+            color: lightseagreen;
+        }
+        fieldset {
+            max-width: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <section>
+         <main>
+        <form>
+            <h1>Please fill up the form to get pitha</h1>
+            <label for="">Your name:
+<input type="text" placeholder="Your Name" required>
+
+            </label>
+            <label for="">Your Email
+                <input type="text" placeholder="Example@mail.com" required>
+            </label>
+            <fieldset>
+                <legend>Choose only one item</legend>
+                <label for=""><input type="radio" name="pitha" id="">Chitoi</label>
+                <label for=""><input type="radio" name="pitha" id="">Vapa</label>
+                <label for=""><input type="radio" name="pitha" id="">Patishapta</label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose one or more item</legend>
+                <label for=""><input type="checkbox" name="vorta" id="">Morich vorta</label>
+                <label for=""><input type="checkbox" name="vorta" id="">Sutki vorta</label>
+                <label for=""><input type="checkbox" name="vorta" id="">Sorisha Vorta</label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Direction</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <label for="">Submit your Nid<input type="file" name="" id=""></label>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+      
+      
+    </main>
+</section>
+  
+    <footer></footer>
+    
+</body>
+</html>
